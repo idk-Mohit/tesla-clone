@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
+import { DownArrowImg } from "../images";
 
 const Section = ({
   title,
@@ -27,7 +28,7 @@ const Section = ({
             {RightBtnText && <Bounce right><RightButton>{RightBtnText}</RightButton></Bounce>}
           </ButtonGroup>
         </Fade>
-        <DownArrow src="/images/down-arrow.svg"></DownArrow>
+        <DownArrow src={DownArrowImg}></DownArrow>
       </Buttons>
     </Wrap>
   );

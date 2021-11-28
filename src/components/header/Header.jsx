@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import { Logo } from "../images";
 
 const Header = () => {
   const [burgerStatus, setBurgerStatus] = useState(false);
   return (
     <Container>
         <a>
-          <img src="/images/logo.svg" alt="Logo" />
+          <img src={Logo} alt="Logo" />
         </a>
       <Menu>
           <a href="#">Model S</a>

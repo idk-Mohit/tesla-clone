@@ -1,0 +1,8 @@
+export { default as ModelS } from '../images/model-s.jpg'
+export { default as Model3 } from '../images/model-3.jpg'
+export { default as ModelX } from '../images/model-x.jpg'
+export { default as ModelY } from '../images/model-y.jpg'
+export { default as DownArrowImg } from '../images/down-arrow.svg'
+export { default as Logo } from '../images/logo.svg'
+export { default as SolarPanel } from '../images/solar-panel.jpg'
+export { default as Accessories } from '../images/accessories.jpg'
